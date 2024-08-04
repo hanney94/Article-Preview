@@ -1,7 +1,13 @@
 body {
     background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
-    display: flex;
-    background-color: black;
+    background-color: white;
+    height:500px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 10px;
 }
