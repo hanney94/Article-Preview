@@ -66,6 +66,7 @@ body {
 .contact {
     display: flex;
     flex-direction: column;
+    width:300px;
     font-size: 13px;
 }
 
@@ -76,4 +77,16 @@ body {
 
 .date {
     color:hsl(212, 23%, 69%);
+}
+
+button {
+    background-color:hsl(210, 46%, 95%);
+    border-radius: 150px;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+button:hover {
+    cursor: pointer;
 }
