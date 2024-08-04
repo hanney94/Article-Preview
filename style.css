@@ -16,7 +16,7 @@ body {
     border-radius: 0.625rem;
     margin: 1.25rem;
     position: absolute;
-    top: 50%;
+    top: 20%;
 
 }
 
@@ -29,7 +29,8 @@ body {
 
 .drawers{
     width: 100%;
-    object-fit: fill;
+    height: 300px;
+    object-fit: cover;
     border-radius: 0.625rem 0.625rem 0 0;
 }
 
@@ -58,4 +59,6 @@ body {
 
 .avatar {
     border-radius: 6.25rem;
+    height: 50px;
+    width: 50px;
 }
