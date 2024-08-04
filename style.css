@@ -39,5 +39,6 @@ img{
 }
 
 .text {
-    padding:10px;
+    color: hsl(217, 19%, 35%);
+    padding: 1.875rem;
 }
