@@ -62,3 +62,18 @@ body {
     height: 50px;
     width: 50px;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.name {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+
+.date {
+    color:hsl(212, 23%, 69%);
+}
