@@ -98,3 +98,11 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+.share-popup{
+    display: none;
+}
+
+.share-hidden {
+    background-color:hsl(217, 19%, 35%) ;
+}
