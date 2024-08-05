@@ -100,9 +100,22 @@ button:hover {
 }
 
 .share-popup{
-    display: none;
+    display:
 }
 
 .share-hidden {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 20px;
     background-color:hsl(217, 19%, 35%) ;
+}
+
+.share {
+    color: hsl(214, 17%, 51%);
+    letter-spacing: 4px;
+    font-weight: 500;
 }
