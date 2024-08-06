@@ -60,6 +60,7 @@ body {
     min-width: 100%;
     border-radius: 0 0 10px 10px;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .avatar {
@@ -86,7 +87,7 @@ body {
     color:hsl(212, 23%, 69%);
 }
 
-button {
+.sharebtn{
     background-color:hsl(210, 46%, 95%);
     border-radius: 150px;
     border: none;
@@ -95,7 +96,7 @@ button {
     margin-left: 10px;
 }
 
-button:hover {
+.sharebtn:hover {
     cursor: pointer;
 }
 
@@ -106,28 +107,41 @@ button:hover {
 .share-hidden {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     min-width: 100%;
     border-radius: 0 0 10px 10px;
-    padding-bottom: 20px;
-    background-color:hsl(217, 19%, 35%) ;
+    background-color:hsl(217, 19%, 35%);
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .share {
-    margin-left: 10px;
-    color: hsl(214, 17%, 51%);
+    color: hsl(212, 23%, 69%);
     letter-spacing: 4px;
     font-weight: 500;
+    margin-left: 0;
 }
+
 
 .socials {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 0;
 }
 
 #social-links {
     margin: 8px;
 }
+
+.hiddenbtn{
+    background-color: hsl(214, 17%, 51%);
+    border-radius: 150px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+
