@@ -100,7 +100,7 @@ button:hover {
 }
 
 .share-popup{
-    display:
+    display:none;
 }
 
 .share-hidden {
@@ -115,7 +115,19 @@ button:hover {
 }
 
 .share {
+    margin-left: 10px;
     color: hsl(214, 17%, 51%);
     letter-spacing: 4px;
     font-weight: 500;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#social-links {
+    margin: 8px;
 }
